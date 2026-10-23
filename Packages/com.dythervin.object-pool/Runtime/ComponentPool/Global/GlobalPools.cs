@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using Dythervin.Callbacks;
+using UnityEngine;
+using Object = System.Object;
+
+namespace Dythervin.ObjectPool.Component.Global
+{
+    internal static class GlobalPools<T>
+        where T : UnityEngine.Component
+    {
+        internal static readonly Dictionary<int, WeakReference<IComponentPool<T>>> Pools =
+            new Dictionary<int, WeakReference<IComponentPool<T>>>();
+    }
+
+    public static partial class GlobalPools
+    {
+        private readonly struct Data
+        {
+            public readonly IComponentPool componentPool;
+            public readonly Object obj;
+
+            public Data(IComponentPool componentPool, object obj)
+            {
+                this.componentPool = componentPool;
+                this.obj = obj;
+            }
+        }
+
+        private static readonly Dictionary<int, Data> PoolObjToPrefab = new Dictionary<int, Data>(1024);
+
+        public static bool TryGetPool<T>(int prefabId, out IComponentPool<T> pool)
+            where T : UnityEngine.Component
+        {
+            if (GlobalPools<T>.Pools.TryGetValue(prefabId, out var weakPtr) && weakPtr.TryGetTarget(out var poolBase))
+            {
+                pool = poolBase;
+                return true;
+            }
+
+            pool = null;
+            return false;
+        }
+
+        public static bool TryGetPool<T>(T prefab, out IComponentPool<T> pool)
+            where T : UnityEngine.Component
+        {
+            return TryGetPool(prefab.GetInstanceID(), out pool);
+        }
+
+        internal static IComponentPool<T> GetPool<T>(this PrefabPooled<T> prefabPooled)
+            where T : UnityEngine.Component
+        {
+            IComponentPool<T> pool;
+            if (GlobalPools<T>.Pools.TryGetValue(prefabPooled.instanceId, out var weakPTr))
+            {
+                if (!weakPTr.TryGetTarget(out pool))
+                {
+                    pool = CreatePool(prefabPooled);
+                    weakPTr.SetTarget(pool);
+                }
+            }
+            else
+            {
+                pool = CreatePool(prefabPooled);
+                GlobalPools<T>.Pools[prefabPooled.instanceId] = new WeakReference<IComponentPool<T>>(pool);
+            }
+
+            return pool;
+        }
+
+        private static ComponentPool<T> CreatePool<T>(PrefabPooled<T> prefabPooled)
+            where T : UnityEngine.Component
+        {
+            var pool = new GlobalComponentPool<T>(prefabPooled.Prefab, collectionCheckDefault: false);
+            pool.OnInstantiated += (componentPool, component) =>
+            {
+                PoolObjToPrefab.Add(component.gameObject.GetInstanceID(), new Data(componentPool, component));
+                component.GetCallbacks().OnDestroyed += callbacks => PoolObjToPrefab.Remove(callbacks.gameObject.GetInstanceID());
+            };
+
+            return pool;
+        }
+    }
+}

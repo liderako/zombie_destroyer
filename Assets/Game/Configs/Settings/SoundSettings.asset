@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c174c1f99404178830afdf73169fb57, type: 3}
+  m_Name: SoundSettings
+  m_EditorClassIdentifier: CoreAudio::CoreAudio.SoundSettings
+  openSharpener: {fileID: 11400000, guid: eeca5eb998783f044a0d2b4bd26649f8, type: 2}
+  fallSharpener: {fileID: 11400000, guid: 0ae3eaa71e0b464468a39bafd4c9f348, type: 2}
+  sharpenerWorking: {fileID: 11400000, guid: 11762ff6712b88e4ba48fd0efd7addf3, type: 2}
+  pencilStartFly: {fileID: 11400000, guid: 320b5e97fe8d9f44bbb0293d40314fa7, type: 2}
+  pencilEndFly: {fileID: 11400000, guid: 71b97032fa5d3d74ea64c5144ac327d0, type: 2}
+  sharpenerWarning: {fileID: 11400000, guid: 88df6ac8d9a1e5543bc44a6921f44cc9, type: 2}
+  clickByAnyButton: {fileID: 11400000, guid: ab666844c0c06a74784de6fafa32b573, type: 2}
+  winScreenAppear: {fileID: 11400000, guid: 1c020a611b4c4564da8eaa02226f7f77, type: 2}
+  loseScreenAppear: {fileID: 11400000, guid: c1327faa2c5d7524c83aecbf30c4ba76, type: 2}

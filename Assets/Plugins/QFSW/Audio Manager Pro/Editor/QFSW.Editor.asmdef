@@ -1,0 +1,9 @@
+{
+	"name": "QFSW.Editor",
+	"references": [
+		"QFSW"
+	],
+	"includePlatforms": [
+		"Editor"
+	]
+}

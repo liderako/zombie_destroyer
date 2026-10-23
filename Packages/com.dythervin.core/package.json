@@ -1,0 +1,16 @@
+{
+  "name": "com.dythervin.unity.core",
+  "displayName": "core",
+  "version": "1.0.3",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "keywords": [],
+  "author": {
+    "name": "Dythervin",
+    "email": "dythervin@gmail.com",
+    "url": "https://github.com/dythervin"
+  },
+  "dependencies": {
+    "com.unity.mathematics": "1.2.6"
+  }
+}

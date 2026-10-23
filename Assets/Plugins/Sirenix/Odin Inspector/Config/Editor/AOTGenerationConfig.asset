@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 0
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 090000000d000000
+  lastScan: 638736757669379164
+  supportSerializedTypes:
+  - TypeName: _GameData_.Scripts.Quests.BaseDailyQuestComponent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TheraBytes.BetterUi.BetterButton, TheraBytes.BetterUi.Runtime
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.CapacityBonusEffect+TypeCapacity,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.Quests.Items.DailyQuest, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.DamageBonusEffect+TypeDamageBonus,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[TheraBytes.BetterUi.BetterButton,
+      TheraBytes.BetterUi.Runtime],[InApps.ProductItem[], Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.CapacityBonusEffect+TypeCapacity,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.Quests.Items.DailyQuest,
+      Assembly-CSharp],[_GameData_.Scripts.Quests.BaseDailyQuestComponent, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.DamageBonusEffect+TypeDamageBonus,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.IDStateGame,
+      Assembly-CSharp],[System.Boolean, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.IDStateGame,
+      Assembly-CSharp],[_GameData_.Scripts.Quests.Items.LevelQuestItem, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Scripts.UI.Store.InAppPopUpComponent,
+      Assembly-CSharp],[InApps.ProductItem[], Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[InApps.InAppPurchasePackButton,
+      Assembly-CSharp],[InApps.ProductItem[], Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.IncomeBonusEffect+TypeIncomeBonus,
+      Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.InstrumentItem,
+      Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Configs.Items.ItemConfigBase,
+      Assembly-CSharp],[UnityEngine.Transform, UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.LevelItem,
+      Assembly-CSharp],[_GameData_.Scripts.ScriptableObjects.Settings.LevelBalance,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.LevelItem,
+      Assembly-CSharp],[_GameData_.Scripts.ScriptableObjects.Settings.ObstaclesLevelData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Scripts.ScriptableObjects.MinionItem,
+      Assembly-CSharp],[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Scripts.ScriptableObjects.MinionItem,
+      Assembly-CSharp],[UnityEngine.Transform, UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[InApps.ProductItem, Assembly-CSharp],[_GameData_.Scripts.ScriptableObjects.Settings.ProductReward[],
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[UnityEngine.RectTransform,
+      UnityEngine.CoreModule],[InApps.ProductItem[], Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.RewardItem,
+      Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.RewardItem,
+      Assembly-CSharp],[_GameData_.Scripts.UI.Ads.RewardPopUp, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.SkinItem,
+      Assembly-CSharp],[UnityEngine.GameObject[], UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.SkinItem,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.SpeedBonusEffect+TypeSpeedBonus,
+      Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Settings.stage_demolish,
+      Assembly-CSharp],[System.Single, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Settings.stage_demolish,
+      Assembly-CSharp],[_GameData_.Scripts.ScriptableObjects.Items.InstrumentItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Settings.stage_demolish,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Settings.stage_demolish,
+      Assembly-CSharp],[System.Collections.Generic.List`1[[System.String, mscorlib]],
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.ScriptableObjects.Items.StoreItem+TypeReward,
+      Assembly-CSharp],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[UnityEngine.Transform, UnityEngine.CoreModule],[UnityEngine.GameObject,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[_GameData_.Scripts.UI.Hint.Tutorial,
+      Assembly-CSharp],[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Scripts.ScriptableObjects.TypeEnvMaterial,
+      Assembly-CSharp],[UnityEngine.Material[], UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[CrashKonijn.Goap.Scriptables.WorldKeyScriptable,
+      CrashKonijn.Goap],[_GameData_.Scripts.ScriptableObjects.Items.InstrumentItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.CapacityBonusEffect+TypeCapacity,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.DamageBonusEffect+TypeDamageBonus,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.IDStateGame,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.IncomeBonusEffect+TypeIncomeBonus,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.SpeedBonusEffect+TypeSpeedBonus,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Settings.stage_demolish,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.StoreItem+TypeReward,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[_GameData_.Scripts.UI.Hint.Tutorial,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Game.Scripts.ScriptableObjects.TypeEnvMaterial,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.GameObject[], UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.IDStateGame, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[TheraBytes.BetterUi.BetterButton,
+      TheraBytes.BetterUi.Runtime]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.CapacityBonusEffect+TypeCapacity,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.DamageBonusEffect+TypeDamageBonus,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.IDStateGame,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Scripts.UI.Store.InAppPopUpComponent,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[InApps.InAppPurchasePackButton,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.IncomeBonusEffect+TypeIncomeBonus,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.InstrumentItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Configs.Items.ItemConfigBase,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.LevelItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Scripts.ScriptableObjects.MinionItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[InApps.ProductItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[UnityEngine.RectTransform,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.RewardItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.SkinItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.SpeedBonusEffect+TypeSpeedBonus,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Settings.stage_demolish,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.StoreItem+TypeReward,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[_GameData_.Scripts.UI.Hint.Tutorial,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Scripts.ScriptableObjects.TypeEnvMaterial,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[CrashKonijn.Goap.Scriptables.WorldKeyScriptable,
+      CrashKonijn.Goap]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Scripts.UI.Store.InAppPopUpComponent, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InApps.InAppPurchasePackButton, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.IncomeBonusEffect+TypeIncomeBonus,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.InstrumentItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Configs.Items.ItemConfigBase, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Settings.LevelBalance, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.LevelItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.Quests.Items.LevelQuestItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[Game.Scripts.ScriptableObjects.TypeEnvMaterial,
+      Assembly-CSharp],[UnityEngine.Material[], UnityEngine.CoreModule]], mscorlib]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[_GameData_.Scripts.Entities.ObstacleData,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Material, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Material[], UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Scripts.ScriptableObjects.MinionItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MoreMountains.Tools.MMCircularList`1[[System.Collections.Generic.Dictionary`2[[Game.Scripts.ScriptableObjects.TypeEnvMaterial,
+      Assembly-CSharp],[UnityEngine.Material[], UnityEngine.CoreModule]], mscorlib]],
+      MoreMountains.Tools
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[TheraBytes.BetterUi.BetterButton,
+      TheraBytes.BetterUi.Runtime]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Game.Scripts.UI.Store.InAppPopUpComponent,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[InApps.InAppPurchasePackButton,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.InstrumentItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Configs.Items.ItemConfigBase,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.LevelItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Game.Scripts.ScriptableObjects.MinionItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[InApps.ProductItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.RectTransform,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.RewardItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[_GameData_.Scripts.ScriptableObjects.Items.SkinItem,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.Transform,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[CrashKonijn.Goap.Scriptables.WorldKeyScriptable,
+      CrashKonijn.Goap]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.Entities.Obstacle, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.Entities.ObstacleData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Settings.ObstaclesLevelData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InApps.ProductItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InApps.ProductItem[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InApps.ProductRequirements, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: InApps.ProductRequirements[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Settings.ProductReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Settings.ProductReward[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.RectTransform, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.RewardItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.UI.Ads.RewardPopUp, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.ScriptableObject, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.SkinItem, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.SpeedBonusEffect+TypeSpeedBonus,
+      Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Sprite, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Settings.stage_demolish, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.ScriptableObjects.Items.StoreItem+TypeReward, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Transform, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: _GameData_.Scripts.UI.Hint.Tutorial, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Scripts.ScriptableObjects.TypeEnvMaterial, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CrashKonijn.Goap.Scriptables.WorldKeyScriptable, CrashKonijn.Goap
+    IsCustom: 0
+    Emit: 1
